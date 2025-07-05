@@ -1,4 +1,4 @@
-@charset "URF-8";
+
 
 @import url('https://www.dafont.com/pt/gunplay.font?back=theme');
 
@@ -8,7 +8,6 @@
     font-weight: normal;
 }
 
-
 :root{
     --cor-logo:#09082f;
     
@@ -16,21 +15,20 @@
     --fonte-padrao: Arial, Helvetica, sans-serif;
 }
 
-*{
-    margin: 0px;
-    padding: 0px;
 
+
+.container{
+    background-color: #09082f
 }
 
 body{
     background-color: #09082f;
-    color: white;
-    font-family: var(--fonte-logo);
-} 
-
-
-header>h1{
-    color: white;
-    font-family: var(--fonte-logo);
 }
 
+label{
+    color: white;
+}
+
+h1{
+    color: white;
+}
